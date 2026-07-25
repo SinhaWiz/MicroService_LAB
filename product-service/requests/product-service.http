@@ -1,0 +1,13 @@
+### GET product by id
+GET http://localhost:9004/products/1
+
+### POST product data
+POST http://localhost:9004/products/
+Content-Type: application/json
+
+{
+  "id": "2",
+  "name": "Laptop",
+  "description": "14-inch business laptop",
+  "price": 999.99
+}
