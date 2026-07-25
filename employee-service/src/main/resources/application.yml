@@ -1,0 +1,25 @@
+server:
+  port: 9002
+
+spring:
+  application:
+    name: employee-service
+
+  mongodb:
+    uri: mongodb+srv://sinhartx2070_db_user:Password123@cluster0.fa7nmxd.mongodb.net/?appName=Cluster0
+    database: employee_db
+
+management:
+  health:
+    mongodb:
+      enabled: false
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+
