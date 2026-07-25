@@ -1,0 +1,13 @@
+### GET customer by id
+GET http://localhost:9001/customers/1
+
+### POST customer data
+POST http://localhost:9001/customers/
+Content-Type: application/json
+
+{
+  "id": "2",
+  "name": "Anika",
+  "address": "Dhaka",
+  "age": 22
+}
