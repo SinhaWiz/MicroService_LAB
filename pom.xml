@@ -23,6 +23,7 @@
         <module>order-service</module>
         <module>service-registry</module>
         <module>api-gateway</module>
+        <module>inventory-service</module>
     </modules>
 
 </project>
